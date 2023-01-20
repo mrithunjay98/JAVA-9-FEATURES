@@ -1,0 +1,42 @@
+
+C:\Users\DELL>jshell
+|  Welcome to JShell -- Version 9
+|  For an introduction type: /help intro
+
+jshell> int y=98;System.out.println(y);
+y ==> 98
+98
+
+jshell> String y="hello i mlearning java 9 fatures";System.out.println(y);
+y ==> "hello i mlearning java 9 fatures"
+hello i mlearning java 9 fatures
+
+jshell> int y=90;System.out.println(y);
+y ==> 90
+90
+
+jshell> public void hello(){int y=98;System.out.println(y);}
+|  created method hello()
+
+jshell> hello();
+98
+
+jshell>  public void hello(){String y="hello i mlearning java 9 fatures";System.out.println(y);}
+|  modified method hello()
+
+jshell> hello();
+hello i mlearning java 9 fatures
+
+jshell> public void hello(){String y="good evening sir";System.out.println(y);}
+|  modified method hello()
+
+jshell> hello();
+good evening sir
+
+jshell> public void test(){int y=90;System.out.println(y);}
+|  created method test()
+
+jshell> test();
+90
+
+jshell> exit/
